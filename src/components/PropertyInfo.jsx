@@ -167,7 +167,7 @@ const PropertyInfo = ({ property }) => {
                     />
                   </svg>
                 </div>
-                <span className="stat-value">{sqft?.toLocaleString()}</span>
+                <span className="stat-value">{sqft?.toLocaleString()}sf</span>
                 <span className="stat-suffix">Home Size</span>
               </div>
               <div className="stat-item">
@@ -229,7 +229,7 @@ const PropertyInfo = ({ property }) => {
         <div className="features-section">
           <div className="features-container">
             <ul className="features-list">
-              <li>Nearby recreational lake</li>
+              <li>Recreational lake</li>
               <li>Lake views</li>
               <li>Four units plus manager's quarters</li>
               <li>Fully remodeled in 2025</li>

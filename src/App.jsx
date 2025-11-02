@@ -18,7 +18,7 @@ function App() {
     price: 2800000,
     beds: 11,
     baths: 7,
-    sqft: 8699,
+    sqft: 8150,
     lotSize: "53579sf",
     yearBuilt: 1969,
     heroImage: heroImage,

@@ -94,7 +94,7 @@ const Contact = () => {
 
         <div className="contact-info">
           <div className="contact-details">
-            <a href="tel:+17759973558" className="contact-cta phone">
+            <a href="tel:+17755935999" className="contact-cta phone">
               <div className="contact-icon">
                 <svg
                   width="24"
@@ -114,7 +114,7 @@ const Contact = () => {
               </div>
               <div className="contact-text">
                 <span className="contact-label">Call Us</span>
-                <span className="contact-value">(775) 997-3558</span>
+                <span className="contact-value">(775) 593-5999</span>
               </div>
             </a>
           </div>
