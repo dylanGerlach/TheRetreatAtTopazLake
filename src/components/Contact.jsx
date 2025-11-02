@@ -113,7 +113,9 @@ const Contact = () => {
                 </svg>
               </div>
               <div className="contact-text">
-                <span className="contact-label">Call Us</span>
+                <span className="contact-label">
+                  For More Information Call Us At
+                </span>
                 <span className="contact-value">(775) 593-5999</span>
               </div>
             </a>
