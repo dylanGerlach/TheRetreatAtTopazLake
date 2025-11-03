@@ -1,6 +1,4 @@
 import { useState } from "react";
-import floorplan1 from "../assets/floor-plans/50aaa43c-dbaa-4d78-8420-caad74ba448e.jpg";
-import floorplan2 from "../assets/floor-plans/93a49022-509b-4c6a-805c-ec07f8897cc8.jpg";
 import "./Video.css";
 
 const Video = () => {
@@ -8,7 +6,10 @@ const Video = () => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const floorplans = [floorplan1, floorplan2];
+  const floorplans = [
+    "https://res.cloudinary.com/dk6cjhlwd/image/upload/v1762174003/93a49022-509b-4c6a-805c-ec07f8897cc8_kxid9h.jpg",
+    "https://res.cloudinary.com/dk6cjhlwd/image/upload/v1762173997/50aaa43c-dbaa-4d78-8420-caad74ba448e_xu2svd.jpg",
+  ];
 
   const handleImageClick = (index) => {
     setCurrentSlide(index);

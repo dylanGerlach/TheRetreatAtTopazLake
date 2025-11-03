@@ -1,5 +1,4 @@
 import "./Contact.css";
-import agent3Image from "../assets/agent-headshots/3.jpg";
 
 const Contact = () => {
   return (
@@ -8,30 +7,10 @@ const Contact = () => {
         <div className="agents-grid">
           <div className="agent-card">
             <div className="agent-image">
-              <svg
-                width="80"
-                height="80"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="12"
-                  cy="8"
-                  r="4"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <img
+                src="https://res.cloudinary.com/dk6cjhlwd/image/upload/v1762174954/2_qmi4do.png"
+                alt="Katrina Karasawa"
+              />
             </div>
             <div className="agent-info">
               <h3 className="agent-name">Katrina Karasawa</h3>
@@ -44,30 +23,10 @@ const Contact = () => {
 
           <div className="agent-card">
             <div className="agent-image">
-              <svg
-                width="80"
-                height="80"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="12"
-                  cy="8"
-                  r="4"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <img
+                src="https://res.cloudinary.com/dk6cjhlwd/image/upload/v1762174316/485A8207-Edit_copy_nt9qnx.jpg"
+                alt="Aaron Woods"
+              />
             </div>
             <div className="agent-info">
               <h3 className="agent-name">Aaron Woods</h3>
@@ -80,7 +39,10 @@ const Contact = () => {
 
           <div className="agent-card">
             <div className="agent-image">
-              <img src={agent3Image} alt="John Gerlach" />
+              <img
+                src="https://res.cloudinary.com/dk6cjhlwd/image/upload/v1762174127/3_dsejwh.jpg"
+                alt="John Gerlach"
+              />
             </div>
             <div className="agent-info">
               <h3 className="agent-name">John Gerlach</h3>
