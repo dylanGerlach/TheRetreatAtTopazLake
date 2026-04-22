@@ -14,7 +14,7 @@ function App() {
     city: "Gardnerville",
     state: "NV",
     zip: "89410",
-    price: 2800000,
+    price: 2600000,
     beds: 11,
     baths: 7,
     sqft: 8150,
